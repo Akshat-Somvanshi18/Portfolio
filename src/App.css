@@ -1,0 +1,230 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+.link{
+  cursor: pointer;
+}
+.link:hover{
+    font-weight: bolder;
+}
+body{
+  background-image: linear-gradient(to bottom , rgb(219, 218, 218), white , white , white,rgb(219, 218, 218));
+}
+p{
+  margin: 0;
+  font-size: 13px;
+}
+h3,h4{
+  margin: 0px;
+  text-shadow:2px 2px #c3c3c3;
+}
+.nav-link:hover{
+ opacity:0.6;
+}
+#profile-pic{
+  width: 325px;
+}
+#section1{
+  background: url("./bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ..............................................SECTION 2 (ABOUT ME)......................................... */
+#about-summary{
+  font-size: 20px;
+}
+#school-student-img,#college-student-img{
+  width: 40px;
+}
+@media screen and (max-width:800px) {
+  #about-summary{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:600px) {
+  #about-summary{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:400px) {
+  #about-summary{
+    font-size: 13px;
+  }
+}
+
+
+/* ..............................................SECTION 3 (SKILLS)......................................... */
+#html-img,#css-img,#js-img{
+  width: 70px;
+  transition-duration: 1s;
+}
+#react-img{
+  width: 90px;
+  transition-duration: 1s;
+}
+#bootstrap-img{
+  width: 70px;
+  height: 80px;
+  transition-duration: 1s;
+}
+#java-img,#c-img{
+  width: 95px;
+  transition-duration: 1s;
+}
+#html-img:hover,#css-img:hover,#js-img:hover,#react-img:hover,#bootstrap-img:hover,#java-img:hover,#c-img:hover{
+  transform: rotateZ(360deg);
+}
+#skills-section{
+  background-color: rgb(253, 240, 242);
+}
+#btn-radio1,#btn-radio2{
+  font-size: 18px;
+  padding: 0px 30px;
+}
+@media screen and (max-width: 700px) {
+  #btn-radio1{
+    font-size: 15px;
+  }
+  #btn-radio2{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 570px) {
+  #btn-radio1{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #btn-radio2{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 340px) {
+  #btn-radio1{
+    font-size: 11px;
+    padding-left: 0px;
+    padding-right: 4px;
+  }
+  #btn-radio2{
+    font-size: 11px;
+    padding-left: 4px;
+    padding-right: 0px;
+  }
+}
+
+/* ..............................................SECTION 4 (CERTIFICATIONS)......................................... */
+.certification-div{
+  width: 365px;
+}
+#certification-section{
+  background-color: rgb(253, 240, 242); 
+}
+
+/* ..............................................SECTION 5 (PROJECTS)......................................... */
+.carousel-item p{
+  height: 50px;
+}
+
+/* ..............................................SECTION 6 (FORM)......................................... */
+#sign-img{
+  width: 250px;
+}
+#form-section{
+  background-color: rgb(253, 240, 242);
+}
+
+
+/* ..............................................CONTACT ME SECTION......................................... */
+#sign-contact-img{
+  width: 260px;
+}
+.contact-logo{
+  width: 120px;
+  transition: transform 1s;
+}
+#facebook-img{
+  height: 120px;
+  width: 160px;
+  transition:transform 1s;
+}
+.contact-logo:hover,#facebook-img:hover{
+      cursor: pointer;
+      opacity: 0.7;
+      transform: rotateZ(360deg);
+}
+.contact-h3{
+  color: darkgreen;
+  text-shadow: 2px 3px lightgray;
+}
+@media screen and (max-width: 560px) {
+  .contact-h3 {
+    font-size: 18px;
+  }
+  .contact-h4{
+    font-size: 20px;
+  }
+  .contact-h5 {
+    font-size: 15px;
+  }
+  .contact-logo {
+    width: 90px;
+    height: 90px;
+  }
+  #facebook-img{
+    width: 130px;
+    height: 85px;
+  }
+}
+
+/* ..............................................PROJECT SECTION......................................... */
+.project-carousel-img{
+  width: 700px;
+}
+.tech-heading{
+  font-size:20px;
+}
+.description-summary{
+  font-size:18px;
+}
+@media screen and (max-width:850px){
+  .project-carousel-img{
+    width: 500px;
+  }
+  .tech-heading{
+    font-size:16px;
+  }
+  .description-summary{
+    font-size:14px;
+  }
+}
+  @media screen and (max-width:610px){
+    .project-carousel-img{
+      width: 270px;
+    }
+    .tech-heading{
+      font-size:16px;
+    }
+    .description-summary{
+      font-size:14px;
+    }
+}
+
+/* ..............................................SECTION 7 (EXPERIENCE)......................................... */
+#e-cell-img , #ias-img{
+  width: 70px;
+}
+#jc-img{
+  width: 50px;
+  height: 50px;
+}
+#oasis-img{
+  width: 70px;
+  height: 70px;
+}
+.experience-div{
+  width: 340px;
+  background-image: linear-gradient(to bottom ,lightgray, white , white , white,white,lightgray);
+}
